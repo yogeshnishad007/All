@@ -1,0 +1,125 @@
+
+.token-conatiner{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.Token-box{
+    display: flex;
+padding: 0px 64px;
+justify-content: center;
+align-items: flex-start; 
+align-content: flex-start; 
+gap: 60px 48px;
+align-self: stretch;
+flex-wrap: wrap;
+margin-top: 40px;
+}
+
+.Token-box>div{
+    /* display: flex; */
+    margin-top: 10px;
+    width: 314px;
+    height: 158;
+    border-radius: 12px;
+    border: 3px solid #F9D326;
+    background: #141411;
+    backdrop-filter: blur(13px);
+}
+
+.Token-name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.388px;
+    margin-left: -140px;
+  
+}
+
+.Token-child{
+    height: 450px;
+
+}
+
+
+.Token-child>img{
+    width: 111px;
+    height: 111px;
+    margin-top: 10px;
+}
+
+.detail-token{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+}
+
+
+
+.token-btn{
+    display: flex;
+padding: 10px 20px 10px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 100px;
+border: 2px solid #FFF;
+background: linear-gradient(95deg, #FECC00 -2.53%, #FEA800 102.53%);
+}
+
+.Btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .first{
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+}
+
+.second{
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+} 
+
+
+/*======== TOKEN CARD CONTAINER =========*/
+@keyframes skateInBottom {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .Token-child {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .Token-child:hover {
+    opacity: 1;
+    animation: skateInBottom 0.9s ease-in-out;
+  }
+  
+
+  .Token-child:not(:hover) {
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+  }

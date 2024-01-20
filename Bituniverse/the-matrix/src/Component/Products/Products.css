@@ -92,3 +92,72 @@ margin-top: 40px;
     width: 159px;
 height: 159px;
 }
+
+
+
+/* ================== ANIMATION ====================*/
+
+    .product-child>img{
+        transition: 1s ease;
+        }
+        
+        .product-child>img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 0.2s ease;
+        } 
+
+       
+          
+
+        /*==================== CARD CONTAINER ANIMATION =================*/
+
+        
+   @keyframes skateInBottom {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .product-child {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .product-child:hover {
+    opacity: 1;
+    animation: skateInBottom 0.9s ease-in-out;
+  }
+  
+
+  .product-child:not(:hover) {
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+  }
+    
+  /* ============= PTAG BOX ANIMATION ========= */
+
+    @keyframes dissolveInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity: 2;
+      transform: translateX(1);
+    }
+  }
+  
+  .ptag-box >p:hover {
+    animation: dissolveInLeft 2s ease-in-out;
+  } 
+  .title-box:hover {
+    animation: dissolveInLeft 2s ease-in-out;
+  } 
+  
