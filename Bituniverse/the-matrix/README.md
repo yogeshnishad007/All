@@ -1,6 +1,6 @@
 PROJECT NAME :- BITUNIVERSE
 
-DEPLOYED LINK :- [https://project-medicare-fp24844q1-fullstackcrud.vercel.app/](https://the-matrix-yogeshnishad007.vercel.app/?_vercel_share=R4x21MR7cRIU8zjqZvzC4zcVemZ2YZQg)
+DEPLOYED LINK :- [The Matrix Lab](https://the-matrix-yogeshnishad007.vercel.app/?_vercel_share=R4x21MR7cRIU8zjqZvzC4zcVemZ2YZQg)
 
 
 <h2>Tech Stacks</h2>
