@@ -1,0 +1,99 @@
+
+/* Navbar.css */
+
+
+  .navbar {
+    
+    /* margin-top: 10px; */
+    display: flex;
+    width: 1360px;
+    height: 88px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #554800;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+
+
+  
+
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 55.291px;
+   height: 55.291px;
+   border-radius: 50%;
+  }
+  
+ .name1{
+    width: 97px;
+    height: 12px;
+    color: #FFC603;
+    font-family: Inter;
+    font-size: 16.003px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    margin-top:-22px;
+    margin-left: 12px;
+ }
+
+ .name2{
+    width: 101px;
+    height: 6px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 8.729px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10.213px;
+    padding-top: 30px;
+    margin-left: -98px;
+ }
+
+ /* =====================================================*/
+ .middle{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+ }
+
+ .middle>div>h6{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.5px; /* 91.667% */
+ }
+
+ /*==================================================*/
+  
+  .right {
+    width: 187px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F9D326;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.5px; /* 91.667% */
+  }
+  
+ 
+  

@@ -1,0 +1,29 @@
+
+
+.arrow{
+    position: absolute;
+    left: 53%;
+    top: 118.5%;
+    font-size: 24px;
+}
+
+
+
+/* ====================== BUTTON =============*/
+
+
+  .btn-name{
+       border: none;
+       background: #F9D326;
+        width: 175px;
+        height: 55px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        color: #1C1C1C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 169.432%; /* 27.109px */
+  }

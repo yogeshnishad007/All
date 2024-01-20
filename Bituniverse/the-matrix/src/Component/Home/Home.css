@@ -1,0 +1,97 @@
+
+
+.main{
+    background-color: black;
+}
+
+
+.text-1{
+    color: #F0F6FB;
+    font-family: Kanit;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144%; /* 144px */
+    text-transform: uppercase;
+    margin-left: -100px;
+}
+
+.text2-box>h1{
+    margin-left: -720px;
+}
+
+.text-2{
+    color: #F0F6FB;
+    font-family: Kanit;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144%; /* 144px */
+    text-transform: uppercase;
+   margin-top: -80px;
+}
+
+.text-3{
+    color: #F0F6FB;
+    font-family: Kanit;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144%; 
+    text-transform: uppercase;
+    margin-top: -80px;
+    z-index: 10;
+}
+
+
+
+.text-4{
+    color: #FECC00;
+    font-family: Kanit;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144%;
+    text-transform: uppercase;
+    margin-top: -80px;
+}
+
+.bitcoin-text{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*===================================*/
+
+.image-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.bank-image {
+    width: 400px; 
+    height: auto;
+}
+
+
+/*=================== DESCRIPTION  ================*/
+
+.description{
+    
+    width: 55%;
+    height: 100px;
+color: #FDFFE3;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: 168%; 
+margin-left: auto;
+    margin-right: auto;
+}
